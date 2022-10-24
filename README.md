@@ -3,7 +3,7 @@
 //////////////WARNING //////////    
 This repo is just a copy of a group project.
 you can find the original repo at this address if the owner switch it on public : https://github.com/ivloisy/ft_irc
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+////////////////////////////////
 
 
 ft_irc is a project for the 42 School.
