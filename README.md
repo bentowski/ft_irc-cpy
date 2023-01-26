@@ -11,7 +11,19 @@ ft_irc is a project for the 42 School.
 
 This project has for target to reproduce a little IRC Tchat, by the RFC2812
 
-For see the result, you can clone the repo, launch the Makefile by the command `make`,
-then you can launch the IRC like `./ircserv <port> <password>` (the password is required)
+For run the project, you just need `make`, `c++`, `irssi` (or `netcat`) 
 
-Now, you can connect to the "server" by the client Netcat `nc` or by the client IRSSI
+1) compile the project, you have this make commands:
+
+`make` > Just make the project
+
+`make clean` > Clean all objects files
+
+`make fclean` > make clean and clean the executable
+
+`make re` > make fclean and make
+
+2) run the program:
+`./ircserv <port> <password>` (the password is required)
+
+3) Connect to the "server" with `irssi` of `netcat`
